@@ -12,7 +12,7 @@ const ProjectCard = (props) => {
                 <div className="absolute top-2 right-2 italic">
                     {props.year}
                 </div>
-                <div className="absolute bottom-2 right-2 italic">
+                <div className="absolute bottom-2 right-2 italic max-sm:hidden">
                     {props.technologies}
                 </div>
                 <div
@@ -21,7 +21,7 @@ const ProjectCard = (props) => {
                 md:flex-row md:mx-4 md:space-x-4
                 max-md:mx-4 max-md:space-y-2 max-md:my-3"
                 >
-                    <div className="flex-col space-y-2 mr-10 mt-4">
+                    <div className="flex-col space-y-2 mr-28 mt-2 sm:mb-10">
                         <a className="font-bold text-sky-500 italic uppercase" href={props.link?.href}>{props.link?.title}</a>
                         <div>{props.explanation}</div>
                     </div>
