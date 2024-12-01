@@ -9,7 +9,9 @@ import {
     typingtest,
     reddit,
     youtubedownloader,
-    chess
+    chess,
+    chatroom,
+    todo
 } from "../assets";
 
 
@@ -36,6 +38,16 @@ const projects = [
         link: {
             title: "#RedditClone",
             href: "https://github.com/TheGreatMahan/reddit-clone"
+        }
+    },
+    {
+        image: todo,
+        year: "2024",
+        technologies: "MS SQL Server, MVC .NET Core, C#, Razor, Azure",
+        explanation: "Organize your day with precision and ease using 'MVC ToDoList,' a sleek and efficient to-do list application crafted using MVC .NET Core, C#, and Razor, and deployed on Azure for superior reliability and access. This intuitive tool is designed to help you effortlessly manage your daily tasks. Whether it’s creating new tasks, editing existing ones, deleting completed activities, or simply viewing your entire list, 'MVC ToDoList' supports all these functionalities seamlessly. Tailor your task list with detailed descriptions, set priorities, and track your progress in real-time. Ideal for professionals, students, and anyone looking to streamline their schedule, 'MVC ToDoList' transforms your productivity with just a few clicks, all while ensuring your data is secure and readily accessible in the cloud. Embrace efficiency and stay organized with 'MVC ToDoList,' your ultimate task management companion!",
+        link: {
+            title: "#MVCTODOLIST",
+            href: "https://github.com/TheGreatMahan/MVCToDoList"
         }
     },
     {
@@ -158,7 +170,6 @@ const experiences = [
     },
 
 ];
-
 
 export {
     experiences,

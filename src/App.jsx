@@ -9,8 +9,8 @@ import Technologies from "./Pages/Technologies/Technologies";
 
 function App() {
     return (
-        <BrowserRouter>
-            <div className="w-screen">
+        <div className="w-[100%]">
+            <BrowserRouter>
                 <Header />
                 <Routes>
                     <Route path="/" element={<About />} />
@@ -19,8 +19,8 @@ function App() {
                     <Route path="/experience" element={<Experience />} />
                     <Route path="/technologies" element={<Technologies />} />
                 </Routes>
-            </div>
-        </BrowserRouter>
+            </BrowserRouter>
+        </div>
     );
 }
 

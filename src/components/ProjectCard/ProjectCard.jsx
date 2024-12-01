@@ -4,7 +4,7 @@ const ProjectCard = (props) => {
     return (
         <div className="rounded-xl w-full bg-space-gray relative min-h-[100px] flex py-4 max-sm:flex-col">
             <img
-                className="size-48 rounded-lg my-auto m-4 max-sm:w-auto"
+                className="size-48 rounded-lg my-auto m-4 max-sm:w-auto "
                 src={props.image}
                 alt="Logo"
             />
@@ -22,8 +22,13 @@ const ProjectCard = (props) => {
                 max-md:mx-4 max-md:space-y-2 max-md:my-3"
                 >
                     <div className="flex-col space-y-2 mr-28 mt-2 sm:mb-10">
-                        <a className="font-bold text-sky-500 italic uppercase" href={props.link?.href}>{props.link?.title}</a>
-                        <div>{props.explanation}</div>
+                        <a
+                            className="font-bold text-sky-500 italic uppercase"
+                            href={props.link?.href}
+                        >
+                            {props.link?.title}
+                        </a>
+                        <div className="">{props.explanation}</div>
                     </div>
                 </div>
             </div>

@@ -12,7 +12,7 @@ const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className="bg-space-gray text-white p-5 sticky w-full z-10 top-0 opacity-90 flex items-center justify-center">
+        <nav className="bg-space-gray text-white p-5 sticky w-full z-10 top-0 opacity-90 flex items-center justify-center ">
             <div className="container flex max-w-[1000px] items-center justify-between mx-3">
                 <div className="text-lg font-bold">
                     <Link className="hover:text-brand-light" to="/about">

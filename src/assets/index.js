@@ -13,6 +13,8 @@ import typingtest from "./typingtest.png";
 import reddit from "./reddit.png";
 import youtubedownloader from "./youtubedownloader.png";
 import chess from "./chess.png";
+import chatroom from "./chatroom.png";
+import todo from "./todo.png";
 
 export {
     fanshawe,
@@ -29,5 +31,7 @@ export {
     typingtest,
     reddit,
     youtubedownloader,
-    chess
+    chess,
+    chatroom,
+    todo
 }
