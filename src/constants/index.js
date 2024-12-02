@@ -14,11 +14,6 @@ import {
     todo
 } from "../assets";
 
-
-const about = {
-
-};
-
 const projects = [
     {
         image: youtubedownloader,
@@ -136,7 +131,7 @@ const experiences = [
     {
         name: "DataAnnotation",
         year: "2024 - present",
-        location: "New York, NY (Remote)",
+        location: "New York, NY, United States (Remote)",
         explanation: "🤖 Software Development - AI Training",
         image: dataannotation
     },
@@ -164,8 +159,8 @@ const experiences = [
     {
         name: "Aptude (Acquired by New Era Technologies)",
         explanation: "🚚 Junior .NET Developer Intern - Carrier Services",
-        year: "2019-2023",
-        location: "London, ON, Canada",
+        year: "2021-2022",
+        location: "Chicago, IL, United States (Remote)",
         image: aptude
     },
 
