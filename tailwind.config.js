@@ -17,7 +17,8 @@ export default {
         'silver': '#ecebff',
         'bubble-gum': '#ff77e9',
         'bermuda': '#78dcca',
-        'space-gray': '#111827'
+        'space-gray': '#111827',
+        'silver': "#e2e8f0"
       },
       fontFamily: {
         sans: ['Helvetica', 'Arial', 'sans-serif'],

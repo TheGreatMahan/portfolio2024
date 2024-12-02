@@ -1,19 +1,14 @@
 import React from "react";
-import "./Technologies.css"
+import TechCard from "../../components/TechCard/TechCard";
+import { technologies } from "../../constants";
 
 const Technologies = () => {
     return (
-        <div className="w-screen red py-5">
-            <div className="container max-w-[1000px] w-full mx-auto flex-col space-y-10">
-                <div className="card w-full m-0">
-                    Card 1
-                </div>
-                <div className="card w-full m-0">
-                    Card 2
-                </div>
-                <div className="card w-full">
-                    Card 3
-                </div>
+        <div className="py-5 flex justify-center items-center w-full content-center">
+            <div className="container max-w-[1000px] w-full grid grid-cols-4 sm:grid-cols-7 lg:grid-cols-8 gap-y-6 content-center">
+                {technologies.map((technology, index) => {
+                    return <TechCard key={index} image={technology.image} tech={technology.tech} />;
+                })}
             </div>
         </div>
     );

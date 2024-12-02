@@ -6,6 +6,7 @@ import Projects from "./Pages/Projects/Projects";
 import Experience from "./Pages/Experience/Experience";
 import About from "./Pages/About/About";
 import Technologies from "./Pages/Technologies/Technologies";
+import Reachout from "./Pages/Reachout/Reachout";
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
                     <Route path="/projects" element={<Projects />} />
                     <Route path="/experience" element={<Experience />} />
                     <Route path="/technologies" element={<Technologies />} />
+                    <Route path="/reachout" element={<Reachout />} />
                 </Routes>
             </BrowserRouter>
         </div>

@@ -14,6 +14,66 @@ import {
     todo
 } from "../assets";
 
+import {
+    angular,
+    androidstudio,
+    aws,
+    azure,
+    bitbucket,
+    bootstrap,
+    c,
+    confluence,
+    cpp,
+    csharp,
+    css,
+    dotnet,
+    eclipse,
+    express,
+    fastify,
+    flask,
+    git,
+    github,
+    gitlab,
+    graphql,
+    html,
+    intellij,
+    java,
+    javascript,
+    jest,
+    jira,
+    jquery,
+    jwt,
+    kotlin,
+    laravel,
+    linux,
+    mongodb,
+    mysql,
+    node,
+    npm,
+    ollama,
+    php,
+    postgre,
+    postman,
+    pycharm,
+    python,
+    react,
+    redux,
+    rest,
+    springboot,
+    sqlserver,
+    tailwind,
+    threejs,
+    thunderclient,
+    typescript,
+    unity,
+    visualstudio,
+    vite,
+    vscode,
+    windows,
+    macos,
+} from "../assets";
+
+
 const projects = [
     {
         image: youtubedownloader,
@@ -53,6 +113,16 @@ const projects = [
         link: {
             title: "#Chess",
             href: "https://github.com/TheGreatMahan/Chess"
+        }
+    },
+    {
+        image: chatroom,
+        year: "2022",
+        technologies: "JavaScript, Node.js, Express, React, Material UI",
+        explanation: "Immerse yourself in the world of real-time discussion with 'ChatItUp,' a dynamic chatroom application designed to bring communities and conversations together. Built with the powerful backend combination of Node.js and Express, and enhanced by Socket.io for fluid, real-time interactions, this application offers a robust platform for users to engage in lively chat sessions. React technology powers the sleek user interface, ensuring a smooth and responsive user experience whether you’re partaking in a group debate, a fan club meeting, or a casual chat. Create and join custom chatrooms, manage your conversation settings, and connect with people across the globe. With 'ChatItUp,' every message helps weave a tapestry of connections. Jump into your preferred chatroom and start making connections that matter!",
+        link: {
+            title: "#ChatItUp",
+            href: "https://github.com/TheGreatMahan/RockPaperScissors"
         }
     },
     {
@@ -163,12 +233,75 @@ const experiences = [
         location: "Chicago, IL, United States (Remote)",
         image: aptude
     },
-
 ];
+
+const technologies = [
+    { image: python, tech: 'Python' },
+    { image: javascript, tech: 'JavaScript' },
+    { image: java, tech: 'Java' },
+    { image: typescript, tech: 'TypeScript' },
+    { image: csharp, tech: 'C#' },
+    { image: cpp, tech: 'C++' },
+    { image: c, tech: 'C' },
+    { image: php, tech: 'PHP' },
+    { image: kotlin, tech: 'Kotlin' },
+    { image: html, tech: 'HTML' },
+    { image: css, tech: 'CSS' },
+    { image: node, tech: 'Node.js' },
+    { image: express, tech: 'Express' },
+    { image: springboot, tech: 'Spring Boot' },
+    { image: dotnet, tech: '.NET' },
+    { image: react, tech: 'React' },
+    { image: jquery, tech: 'jQuery' },
+    { image: angular, tech: 'Angular' },
+    { image: fastify, tech: 'Fastify' },
+    { image: flask, tech: 'Flask' },
+    { image: laravel, tech: 'Laravel' },
+    { image: git, tech: 'Git' },
+    { image: github, tech: 'GitHub' },
+    { image: gitlab, tech: 'GitLab' },
+    { image: bitbucket, tech: 'Bitbucket' },
+    { image: mysql, tech: 'MySQL' },
+    { image: postgre, tech: 'PostgreSQL' },
+    { image: sqlserver, tech: 'SQL Server' },
+    { image: mongodb, tech: 'MongoDB' },
+    { image: tailwind, tech: 'Tailwind CSS' },
+    { image: bootstrap, tech: 'Bootstrap' },
+    { image: threejs, tech: 'Three.js' },
+    { image: linux, tech: 'Linux' },
+    { image: windows, tech: 'Windows' },
+    { image: macos, tech: 'macOS' },
+    { image: aws, tech: 'AWS' },
+    { image: azure, tech: 'Azure' },
+    { image: postman, tech: 'Postman' },
+    { image: thunderclient, tech: 'Thunder Client' },
+
+    { image: visualstudio, tech: 'Visual Studio' },
+    { image: vscode, tech: 'Visual Studio Code' },
+    { image: intellij, tech: 'IntelliJ IDEA' },
+    { image: pycharm, tech: 'PyCharm' },
+    { image: androidstudio, tech: 'Android Studio' },
+    { image: eclipse, tech: 'Eclipse' },
+
+    { image: graphql, tech: 'GraphQL' },
+    { image: rest, tech: 'REST' },
+
+    { image: confluence, tech: 'Confluence' },
+    { image: jira, tech: 'Jira' },
+    { image: jest, tech: 'Jest' },
+    { image: jwt, tech: 'JWT' },
+    { image: npm, tech: 'npm' },
+    { image: ollama, tech: 'Ollama' },
+    { image: redux, tech: 'Redux' },
+    { image: unity, tech: 'Unity' },
+    { image: vite, tech: 'Vite' },
+];
+
 
 export {
     experiences,
-    projects
+    projects,
+    technologies
 }
 
 
