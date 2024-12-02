@@ -15,6 +15,7 @@ import youtubedownloader from "./youtubedownloader.png";
 import chess from "./chess.png";
 import chatroom from "./chatroom.png";
 import todo from "./todo.png";
+import personal from "./personal.png"
 
 export {
     fanshawe,
@@ -33,5 +34,6 @@ export {
     youtubedownloader,
     chess,
     chatroom,
-    todo
+    todo,
+    personal
 }
