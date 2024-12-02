@@ -6,7 +6,7 @@ const navigation = [
     { name: "Experience", href: "/experience" },
     { name: "Projects", href: "/projects" },
     { name: "Technologies", href: "/technologies" },
-    { name: "Reachout", href: "/reachout" }
+    // { name: "Reachout", href: "/reachout" }
 ];
 
 const Header = () => {
