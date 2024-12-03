@@ -63,6 +63,7 @@ const Header = () => {
                                 key={item.name}
                                 to={item.href}
                                 className="block text-white hover:bg-brand-blue p-2"
+                                onClick={() => setIsOpen(false)}
                             >
                                 {item.name}
                             </Link>

@@ -297,11 +297,21 @@ const technologies = [
     { image: vite, tech: 'Vite' },
 ];
 
+const about = [
+    "👋 Hi there! I'm a recent software engineering graduate from Fanshawe College. Driven and enthusiastic, I'm excited to embark on my career journey in the tech industry.",
+    "🚀 As someone who's ambitious and eager to grow, I'm alwayson the lookout for opportunities that will challenge me and expand my skill set. I thrive in environments that foster innovation and continuous learning.",
+    "💡 I have a deep passion for working with new technologies. Staying ahead of tech trends and applying the latest tools in my projects is something I truly enjoy and excel at.",
+    "🌱 Proactive by nature, I don't just wait for opportunities—I create them. I'm keen on making significant contributions and driving results wherever I go.",
+    "🌐 With a solid foundation in software engineering under my belt, I am particularly enthusiastic about branching out into specialized areas like Cloud, DevOps, and AI. My goal is to get deeply involved in these fields, harnessing their power to revolutionize how we build and deploy solutions in our increasingly digital world. I'm eager to contribute to projects that push the envelope in these exciting domains.",
+    "🏋️‍♂️ Outside of technology, I'm committed to personal development through fitness. I believe in growing non-stop, not just professionally but also personally. Working out regularly helps me stay focused and energized, ready to tackle new challenges both in and out of the tech arena. This balance drives me to excel and push boundaries every day.",
+    "💭 Let's connect and explore how we can drive the future of technology together!"
+]
 
 export {
     experiences,
     projects,
-    technologies
+    technologies,
+    about
 }
 
 

@@ -2,7 +2,7 @@ import React from "react";
 
 const ProjectCard = (props) => {
     return (
-        <div className="rounded-xl w-full bg-space-gray relative min-h-[100px] flex py-4 max-sm:flex-col">
+        <div className="rounded-xl w-full bg-space-gray relative min-h-[100px] flex py-4 max-sm:flex-col max-lg:w-[94%] max-lg:mx-auto">
             <img
                 className="size-48 rounded-lg my-auto m-4 max-sm:w-auto "
                 src={props.image}
@@ -21,7 +21,7 @@ const ProjectCard = (props) => {
                 md:flex-row md:mx-4 md:space-x-4
                 max-md:mx-4 max-md:space-y-2 max-md:my-3"
                 >
-                    <div className="flex-col space-y-2 mr-28 mt-2 sm:mb-10">
+                    <div className="flex-col space-y-2 max-md:mr-8 md:mr-28 mt-2 sm:mb-10">
                         <a
                             className="font-bold text-sky-500 italic uppercase"
                             href={props.link?.href}
