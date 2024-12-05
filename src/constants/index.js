@@ -71,6 +71,8 @@ import {
     vscode,
     windows,
     macos,
+    selenium,
+    docker
 } from "../assets";
 
 
@@ -273,6 +275,7 @@ const technologies = [
     { image: macos, tech: 'macOS' },
     { image: aws, tech: 'AWS' },
     { image: azure, tech: 'Azure' },
+    { image: docker, tech: 'Docker' },
     { image: postman, tech: 'Postman' },
     { image: thunderclient, tech: 'Thunder Client' },
 
@@ -295,6 +298,7 @@ const technologies = [
     { image: redux, tech: 'Redux' },
     { image: unity, tech: 'Unity' },
     { image: vite, tech: 'Vite' },
+    { image: selenium, tech: 'Selenium' },
 ];
 
 const about = [

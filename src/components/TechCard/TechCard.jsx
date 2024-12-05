@@ -12,7 +12,7 @@ const TechCard = ({ image, tech }) => {
             <img
                 src={image}
                 alt="Technology"
-                className="max-w-full max-h-full"
+                className="max-w-full max-h-full rounded-3xl"
             />
             {showTooltip && (
                 <div className="absolute bottom-full mb-2 left-1/2 transform -translate-x-1/2 p-2 bg-space-gray text-white text-xs rounded-lg shadow-md">

@@ -74,6 +74,8 @@ import windows from "./Technologies/windows.png";
 import macos from "./Technologies/macos.png";
 import semantic from "./Technologies/semantic.png";
 import materialui from "./Technologies/materialui.png";
+import selenium from "./Technologies/selenium.png";
+import docker from "./Technologies/docker.png";
 
 export {
     fanshawe,
@@ -151,5 +153,7 @@ export {
     windows,
     macos,
     semantic,
-    materialui
+    materialui,
+    selenium,
+    docker
 }
