@@ -11,7 +11,8 @@ import {
     youtubedownloader,
     chess,
     chatroom,
-    todo
+    todo,
+    screenshotapp
 } from "../assets";
 
 import {
@@ -77,6 +78,16 @@ import {
 
 
 const projects = [
+    {
+        image: screenshotapp,
+        year: "2025",
+        technologies: "Python, Tkinter, Pillow, Tesseract",
+        explanation: "Elevate your productivity with ScreenCaptureTool, your ultimate OCR-powered screen snipping companion, built using Python, Tkinter for seamless overlay controls, and Tesseract OCR for lightning-fast text extraction. ScreenCaptureTool transforms any screen region into editable text with surgical precision—no more manual typing! Simply trigger the tool, drag to select, and watch as text magically appears in your clipboard.",
+        link: {
+            title: "#ScreenCaptureTool",
+            href: "https://github.com/TheGreatMahan/ScreenCaptureTool"
+        }
+    },
     {
         image: youtubedownloader,
         year: "2024",

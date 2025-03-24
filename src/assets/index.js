@@ -12,6 +12,7 @@ import rockpaperscissors from "./rockpaperscissors.png";
 import typingtest from "./typingtest.png";
 import reddit from "./reddit.png";
 import youtubedownloader from "./youtubedownloader.png";
+import screenshotapp from "./screenshotapp.png";
 import chess from "./chess.png";
 import chatroom from "./chatroom.png";
 import todo from "./todo.png";
@@ -92,6 +93,7 @@ export {
     typingtest,
     reddit,
     youtubedownloader,
+    screenshotapp,
     chess,
     chatroom,
     todo,
@@ -155,5 +157,5 @@ export {
     semantic,
     materialui,
     selenium,
-    docker
+    docker,
 }
